@@ -1,7 +1,6 @@
-package net.javaguides.springboot.service;
+package io.github.rvdxk.service;
 
-import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
+import io.github.rvdxk.dto.UserDto;
 
 import java.util.List;
 

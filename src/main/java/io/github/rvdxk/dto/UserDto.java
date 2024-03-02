@@ -1,4 +1,4 @@
-package net.javaguides.springboot.dto;
+package io.github.rvdxk.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

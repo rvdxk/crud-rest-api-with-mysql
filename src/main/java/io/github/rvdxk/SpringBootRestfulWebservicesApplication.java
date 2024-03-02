@@ -1,4 +1,4 @@
-package net.javaguides.springboot;
+package io.github.rvdxk;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

@@ -1,7 +1,7 @@
-package net.javaguides.springboot.mapper;
+package io.github.rvdxk.mapper;
 
-import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
+import io.github.rvdxk.dto.UserDto;
+import io.github.rvdxk.entity.User;
 
 public class UserMapper {
 

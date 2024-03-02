@@ -1,13 +1,13 @@
-package net.javaguides.springboot.service.impl;
+package io.github.rvdxk.service.impl;
 
 import lombok.AllArgsConstructor;
-import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
-import net.javaguides.springboot.exception.EmailAlreadyExistsException;
-import net.javaguides.springboot.exception.ResourceNotFoundException;
-import net.javaguides.springboot.mapper.AutoUserMapper;
-import net.javaguides.springboot.repository.UserRepository;
-import net.javaguides.springboot.service.UserService;
+import io.github.rvdxk.dto.UserDto;
+import io.github.rvdxk.entity.User;
+import io.github.rvdxk.exception.EmailAlreadyExistsException;
+import io.github.rvdxk.exception.ResourceNotFoundException;
+import io.github.rvdxk.mapper.AutoUserMapper;
+import io.github.rvdxk.repository.UserRepository;
+import io.github.rvdxk.service.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 

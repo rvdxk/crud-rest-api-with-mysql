@@ -1,4 +1,4 @@
-package net.javaguides.springboot.exception;
+package io.github.rvdxk.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

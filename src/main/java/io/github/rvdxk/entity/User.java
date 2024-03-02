@@ -1,4 +1,4 @@
-package net.javaguides.springboot.entity;
+package io.github.rvdxk.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

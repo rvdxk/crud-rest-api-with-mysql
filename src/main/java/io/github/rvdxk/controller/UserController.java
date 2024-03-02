@@ -1,8 +1,8 @@
-package net.javaguides.springboot.controller;
+package io.github.rvdxk.controller;
 
 import lombok.AllArgsConstructor;
-import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.service.UserService;
+import io.github.rvdxk.dto.UserDto;
+import io.github.rvdxk.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

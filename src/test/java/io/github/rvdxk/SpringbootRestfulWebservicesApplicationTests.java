@@ -1,4 +1,4 @@
-package net.javaguides.springboot;
+package io.github.rvdxk;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
