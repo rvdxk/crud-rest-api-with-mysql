@@ -2,8 +2,6 @@ package net.javaguides.springboot.controller;
 
 import lombok.AllArgsConstructor;
 import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
-import net.javaguides.springboot.repository.UserRepository;
 import net.javaguides.springboot.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
