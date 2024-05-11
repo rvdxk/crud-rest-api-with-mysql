@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  mysqldb:
+    container_name: mysqldb
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: employeedb
+    networks:
+      spring-boot-mysql-net:
+
+  spring-boot-restful-webservices:
+    container_name: spring-boot-restful-webservices
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      spring-boot-mysql-net:
+    restart: on-failure
+
+networks:
+  spring-boot-mysql-net:
